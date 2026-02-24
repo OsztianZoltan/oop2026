@@ -17,7 +17,7 @@ public class Main {
         System.out.println(account2.getAccountNumber()+ " : "+account2.getBalance());
         account2.deposit(2000);
         System.out.println(account2.getAccountNumber()+ " : "+account2.getBalance());
-           */
+
         Rectangle rectangle1 = new Rectangle(-5,0);
         System.out.println("Length: " + rectangle1.getLength() + " Width: " + rectangle1.getWidth() + " Area: " + rectangle1.area() + " Perimeter : " + rectangle1.perimeter());
         Rectangle[] rectangles= new Rectangle[10];
@@ -37,6 +37,20 @@ public class Main {
             arees+=rectangles[i].area();
         }
         System.out.println(arees);
+        */
+        System.out.println(DateUtil.isValidDate(2000,2, 29));
+        System.out.println(DateUtil.isValidDate(2000,2, 30) );
+        System.out.println(DateUtil.isValidDate(1900,2, 29) );
+        System.out.println(DateUtil.isValidDate(1900,2, 28) );
+        System.out.println(DateUtil.isValidDate(-1900,2, 28) );
+        System.out.println(DateUtil.isValidDate(0,2, 28) );
+        System.out.println(DateUtil.isValidDate(2021,2, 29));
+        System.out.println(DateUtil.isValidDate(2020,2, 29) );
+        System.out.println(DateUtil.isValidDate(2020,1, 32));
+        System.out.println(DateUtil.isValidDate(2020,1, 0));
+        System.out.println(DateUtil.isValidDate(2020,0, 0) );
+        System.out.println(DateUtil.isValidDate(2020,4, 31));
+        System.out.println(DateUtil.isValidDate(2020,1, 31));
 
 
     }
