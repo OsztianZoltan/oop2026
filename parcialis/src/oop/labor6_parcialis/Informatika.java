@@ -15,7 +15,7 @@ public class Informatika {
         return felvetelizok.size();
     }
     public double felvetelizokAtlaga(){
-        if(felvetelizok.size()==0)
+        if(felvetelizok.isEmpty())
             return 0;
         double osszeg = 0;
         for (Diak s : felvetelizok) {

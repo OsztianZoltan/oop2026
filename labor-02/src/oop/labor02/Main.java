@@ -1,5 +1,6 @@
 
 package oop.labor02;
+import java.util.Comparator;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
@@ -75,6 +76,13 @@ public class Main {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }*/
+
+        Comparator<Rectangle> comparator = new Comparator<Rectangle>() {
+            @Override
+            public int compare(Rectangle o1, Rectangle o2) {
+                return 0;
+            }
+        };
 
     }
 }

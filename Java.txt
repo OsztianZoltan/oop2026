@@ -1,0 +1,7 @@
+Azonosító: 1
+Név: Java
+Dátum: 2025_11_2
+Tartalom:
+Első sor a dokumentumban.
+Második sor a dokumentumban.
+Harmadik sor a dokumentumban.
